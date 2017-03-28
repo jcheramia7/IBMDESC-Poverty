@@ -1,1 +1,3 @@
 > ggplot(IncomeExpenditure2012, aes(x=RegionalDesignation, y=Pesos,fill=Type)) +  geom_bar(stat = "identity",position=position_dodge(), colour="black") + scale_fill_manual(values=c("gold","firebrick1")) + ggtitle("DIFFERENCE OF INCOME AND EXPENDITURE BY REGION FOR 2012") + theme(plot.title = element_text(hjust = 0.5))
+
+> ggplot(IncomeExpenditure2015, aes(x=RegionalDesignation, y=Pesos,fill=Type)) +  geom_bar(stat = "identity",position=position_dodge(), colour="black") + scale_fill_manual(values=c("gold","seagreen")) + ggtitle("DIFFERENCE OF INCOME AND EXPENDITURE BY REGION FOR 2015") + theme(plot.title = element_text(hjust = 0.5))

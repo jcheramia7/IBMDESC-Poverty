@@ -1,0 +1,1 @@
+ggplot(ForGroupedBars, aes(x=RegionalDesignation, y=Pesos,fill=Type)) +  geom_bar(stat = "identity",position=position_dodge()) + ggtitle("DIFFERENCE OF INCOME AND EXPENDITURE BY REGION FOR 2012") + theme(plot.title = element_text(hjust = 0.5))
